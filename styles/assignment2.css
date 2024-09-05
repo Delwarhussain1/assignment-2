@@ -11,6 +11,10 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+.header {
+  max-width: 1060px;
+  margin: 0 auto;
+}
 /* navbar related styles */
 .navbar {
   display: flex;
@@ -38,4 +42,108 @@
   padding: 8px 20px 8px 20px;
   border-radius: 40px;
   color: rgb(255, 255, 255);
+}
+/* .shape-style {
+  font-style: miama;
+} */
+.banner {
+  display: flex;
+  gap: 167px;
+}
+.banner-contain {
+  max-width: 520px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.banner-contain h3 {
+  font-weight: 900;
+  font-size: 4.6rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+.banner-contain p {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.btn-primary {
+  border-radius: 40px;
+  padding: 16px 40px;
+  background-color: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1.08rem;
+  margin: 0px 14px;
+}
+.btn-secendry {
+  border-radius: 40px;
+  padding: 16px 40px;
+  background-color: #0f0f0f;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1.08rem;
+  margin: 0px 14px;
+}
+.banner-img img {
+  height: 100%;
+  width: 100%;
+}
+.video-tutorial {
+  padding: 20px 23px;
+  border-radius: 12px;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: -150px;
+  margin-left: -90px;
+}
+.count {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(250, 250, 249);
+}
+.vedio {
+  color: rgba(239, 237, 232, 0.65);
+}
+.ball {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(230, 83, 60);
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.workout {
+  padding: 20px 23px;
+  border-radius: 12px;
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(20px);
+  gap: 5px;
+  /* margin-top: -150px; */
+  /* margin-bottom: -300px; */
+  /* margin-left: 0px; */
+  /* margin-right: -250px; */
+  /* margin-bottom: -350px; */
+  /* margin-bottom: -700px; */
+  /* margin-top: 0px; */
+  /* margin-bottom: -500px; */
+  height: 98px;
+  width: 193px;
+  /* margin-right: -200px; */
+  margin-left: -100px;
+  /* margin-bottom: 350px; */
+  margin-top: 140px;
+  margin-right: -60px;
+  /* margin-bottom: 50px; */
+  /* margin-right: -100px; */
+}
+.work {
+  display: flex;
 }
