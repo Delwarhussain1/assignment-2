@@ -218,3 +218,111 @@
   width: 100%;
   border-radius: 18px;
 }
+.calculator-heading {
+  max-width: 671px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.calculator-heading h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: rgb(255, 255, 255);
+}
+.calculator-heading p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.calculator {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(34, 34, 34);
+  margin-top: 88px;
+  /* display: flex;
+  padding-top: 52px; */
+}
+.calculator-box {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-top: 52px;
+  padding-bottom: 52px;
+
+  display: flex;
+  gap: 172px;
+}
+/* .calculator-chart table {
+  /* border-collapse: collapse; */
+/* .calculator-chart table th,
+td {
+  border: 1px solid 1px Middle rgba(255, 255, 255, 0.1);
+} */
+.calculator-chart h3 {
+  font-weight: 900;
+  font-size: 1.75rem;
+  color: rgb(255, 255, 255);
+}
+th {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+}
+td {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 13px;
+}
+tr {
+  /* border: 1px solid rgba(255, 255, 255, 0.1); */
+}
+.calculate {
+  max-width: 577px;
+  margin: 0 auto;
+}
+.calculate h3 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.calculate p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.calculate-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 12px;
+  column-gap: 12px;
+  margin-top: 34px;
+  /* margin-bottom: 34px; */
+  /* background-color: yellow; */
+}
+#box1 {
+  /* background-color: aqua; */
+}
+#box5 {
+  grid-column: span 2;
+  /* background-color: yellowgreen; */
+}
+.box {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+}
+input ::placeholder {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.box input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  /* text-decoration: none; */
+  /* background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px; */
+}
+.calculate-box .btn-primary {
+  margin-top: 34px;
+}
