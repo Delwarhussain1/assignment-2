@@ -46,6 +46,7 @@
 /* .shape-style {
   font-style: miama;
 } */
+/* banner related styles */
 .banner {
   display: flex;
   gap: 167px;
@@ -117,8 +118,6 @@
   border-radius: 50%;
   background-color: rgb(230, 83, 60);
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
 }
 .workout {
   padding: 20px 23px;
@@ -126,24 +125,66 @@
   background: rgba(48, 48, 48, 0.54);
   backdrop-filter: blur(20px);
   gap: 5px;
-  /* margin-top: -150px; */
-  /* margin-bottom: -300px; */
-  /* margin-left: 0px; */
-  /* margin-right: -250px; */
-  /* margin-bottom: -350px; */
-  /* margin-bottom: -700px; */
-  /* margin-top: 0px; */
-  /* margin-bottom: -500px; */
   height: 98px;
   width: 193px;
-  /* margin-right: -200px; */
   margin-left: -100px;
-  /* margin-bottom: 350px; */
   margin-top: 140px;
   margin-right: -60px;
-  /* margin-bottom: 50px; */
-  /* margin-right: -100px; */
 }
 .work {
   display: flex;
+}
+/* habit section related styles */
+.habit {
+  max-width: 1040px;
+  margin: 0 auto;
+  margin-top: 100px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  /* border: 2px solid red; */
+}
+.habit-head {
+  max-width: 670px;
+  margin: 0 auto;
+  text-align: center;
+}
+.habit-head h4 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: rgb(255, 255, 255);
+}
+.habit-head p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.habit-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 55px;
+  /* border: 2px solid yellow; */
+}
+.habit-card {
+  /* align-items: center; */
+  text-align: center;
+  /* border: 2px solid red; */
+}
+.habit-card img {
+  border-radius: 50%;
+}
+.habit-card h5 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 6px;
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255);
+}
+.habit-card p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
 }
