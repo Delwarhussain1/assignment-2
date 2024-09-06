@@ -139,11 +139,6 @@
   max-width: 1040px;
   margin: 0 auto;
   margin-top: 100px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
-  /* border: 2px solid red; */
 }
 .habit-head {
   max-width: 670px;
@@ -167,12 +162,9 @@
   align-items: center;
   gap: 40px;
   margin-top: 55px;
-  /* border: 2px solid yellow; */
 }
 .habit-card {
-  /* align-items: center; */
   text-align: center;
-  /* border: 2px solid red; */
 }
 .habit-card img {
   border-radius: 50%;
@@ -239,8 +231,6 @@
   margin: 0 auto;
   background-color: rgb(34, 34, 34);
   margin-top: 88px;
-  /* display: flex;
-  padding-top: 52px; */
 }
 .calculator-box {
   max-width: 1060px;
@@ -251,12 +241,7 @@
   display: flex;
   gap: 172px;
 }
-/* .calculator-chart table {
-  /* border-collapse: collapse; */
-/* .calculator-chart table th,
-td {
-  border: 1px solid 1px Middle rgba(255, 255, 255, 0.1);
-} */
+
 .calculator-chart h3 {
   font-weight: 900;
   font-size: 1.75rem;
@@ -274,9 +259,6 @@ td {
   color: rgba(255, 255, 255, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 13px;
-}
-tr {
-  /* border: 1px solid rgba(255, 255, 255, 0.1); */
 }
 .calculate {
   max-width: 577px;
@@ -297,15 +279,9 @@ tr {
   row-gap: 12px;
   column-gap: 12px;
   margin-top: 34px;
-  /* margin-bottom: 34px; */
-  /* background-color: yellow; */
-}
-#box1 {
-  /* background-color: aqua; */
 }
 #box5 {
   grid-column: span 2;
-  /* background-color: yellowgreen; */
 }
 .box {
   background-color: rgba(255, 255, 255, 0.1);
@@ -325,4 +301,119 @@ input ::placeholder {
 }
 .calculate-box .btn-primary {
   margin-top: 34px;
+}
+/* meet our team section related styles */
+.our-team {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.team-heading {
+  text-align: center;
+  max-width: 671px;
+  margin: 0 auto;
+}
+.team-heading h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  margin-bottom: 14px;
+}
+.team-heading p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.team-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-top: 58px;
+  margin-bottom: 88px;
+  padding: 20px;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.team-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 18px;
+}
+.text-over-cont {
+  position: relative;
+  text-align: center;
+}
+.text-over {
+  position: absolute;
+  text-align: left;
+  bottom: 8px;
+  left: 16px;
+}
+.text-over h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  color: rgb(255, 255, 255);
+}
+.text-over p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-contain {
+  max-width: 1059px;
+  margin: 0 auto;
+  display: flex;
+  gap: 102px;
+  padding-top: 66px;
+  padding-bottom: 79px;
+}
+.footer-branding {
+  max-width: 443px;
+  margin: 0 auto;
+}
+.footer-branding h3 {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 4.37rem;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: rgb(230, 83, 60);
+}
+.footer-branding p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-link-1 h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.line hr {
+  max-width: 1060px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.wonership {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: rgba(255, 255, 255, 0.5);
 }
