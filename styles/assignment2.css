@@ -25,6 +25,10 @@
   align-items: center;
   gap: 40px;
 }
+.icon {
+  background-color: rgb(255, 255, 255);
+  /* border: 2px solid rgb(255, 255, 255); */
+}
 .nav-item {
   list-style: none;
 }
@@ -470,4 +474,24 @@ input ::placeholder {
   padding-top: 35px;
   padding-bottom: 35px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 576px) {
+  .nav-item {
+    display: none;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .habit-img {
+    flex-direction: column;
+  }
+  .run-container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 577px) {
+  .icon {
+    display: none;
+  }
 }
