@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 .inter-narmal-font {
   font-family: 'Inter', sans-serif;
@@ -7,7 +8,6 @@
   font-style: normal;
 }
 .body {
-  /* border: 2px solid yellow; */
   background-color: #000000;
   max-width: 1440px;
   margin: 0 auto;
@@ -28,7 +28,6 @@
 }
 .icon {
   background-color: rgb(255, 255, 255);
-  /* border: 2px solid rgb(255, 255, 255); */
 }
 .nav-item {
   list-style: none;
@@ -48,9 +47,13 @@
   border-radius: 40px;
   color: rgb(255, 255, 255);
 }
-/* .shape-style {
-  font-style: miama;
-} */
+.shape-style {
+  font-weight: 400;
+  font-family: 'Miama', sans-serif;
+  font-size: 4.6rem;
+  font-style: italic;
+}
+
 /* banner related styles */
 .banner {
   display: flex;
@@ -67,6 +70,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   color: rgb(255, 255, 255);
+  line-height: 5rem;
 }
 .banner-contain p {
   color: rgba(255, 255, 255, 0.5);
@@ -257,8 +261,6 @@
   margin-top: 38px;
 
   padding: 55px;
-  /* border-radius: 18px; */
-  /* background-color: rgba(255, 255, 255, 0.1); */
 }
 .food-images img {
   height: 100%;
@@ -328,32 +330,7 @@ td {
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.5);
 }
-/* .calculate-box {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 12px;
-  column-gap: 12px;
-  margin-top: 34px;
-}
-#box5 {
-  grid-column: span 2;
-}
-.box {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 12px 40px 12px 20px;
-  border-radius: 8px;
-}
-input ::placeholder {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.box input {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: none;
-   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 12px 40px 12px 20px;
-  border-radius: 8px;
-} */
+
 .form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -496,20 +473,39 @@ input ::placeholder {
   .banner {
     flex-direction: column;
   }
+  .banner-contain h3 {
+    font-size: 3rem;
+  }
+  .banner-contain .btn-primary {
+    font-weight: 500;
+    padding: 16px 30px;
+    margin: 0 7px;
+  }
+  .btn-secendry {
+    font-weight: 500;
+    padding: 16px 30px;
+    margin: 0 7px;
+  }
   .video-tutorial {
     margin-left: 0px;
     margin-top: -300px;
   }
   .workout {
-    margin-right: 110px;
-    margin-top: 50px;
-    margin-left: -50px;
+    margin-right: 1px;
+    margin-top: 0px;
+    /* margin-left: 0px; */
+    margin-bottom: 0px;
   }
   .habit-img {
     flex-direction: column;
   }
   .run-container {
     flex-direction: column;
+    gap: 50px;
+  }
+  .run-contain .btn-primary {
+    width: 100%;
+    margin: 0 auto;
   }
   .food-images {
     grid-template-columns: repeat(1, 1fr);
@@ -523,16 +519,21 @@ input ::placeholder {
   .footer-contain {
     flex-direction: column;
   }
-  .btn-primary {
-    margin: 0 auto 0 15px;
+
+  .form {
+    row-gap: 10px;
+    column-gap: 10px;
   }
-  /* .btn-secendry {
-    margin: 0 auto;
-  } */
+  .form input {
+    padding: 8px 26px 8px 13px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+  }
 
   .body {
-    /* border: 2px solid yellow; */
-    /* margin: 0 20px; */
+    margin: 0;
+    padding: 10px;
   }
 }
 @media screen and (min-width: 577px) {
