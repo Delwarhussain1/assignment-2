@@ -245,11 +245,7 @@
   margin-bottom: 14px;
   text-align: center;
 }
-.food-img {
-  /* padding-bottom: 55px; */
-  /* border-radius: 18px; */
-  /* background-color: rgba(255, 255, 255, 0.1); */
-}
+
 .food-images {
   max-width: 1060px;
   margin: 0 auto;
@@ -483,11 +479,37 @@ input ::placeholder {
   .banner {
     flex-direction: column;
   }
+  .video-tutorial {
+    margin-left: 0px;
+    margin-top: -300px;
+  }
+  .workout {
+    margin-right: 110px;
+    margin-top: 50px;
+    margin-left: -50px;
+  }
   .habit-img {
     flex-direction: column;
   }
   .run-container {
     flex-direction: column;
+  }
+  .food-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .calculator-box {
+    flex-direction: column;
+  }
+  .team-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-contain {
+    flex-direction: column;
+  }
+
+  .body {
+    border: 2px solid yellow;
+    padding: 0px 20px;
   }
 }
 @media screen and (min-width: 577px) {
